@@ -1,11 +1,18 @@
+import os
+import random
+import string
 from django.db import models
 from django.contrib.auth.models import User
 from PIL import Image
+import uuid
 
+def get_save_path(instance, filename):
+    _, ext = os.path.splitext(filename)
+    return 'profile_pics/' + uuid.uuid4().hex + ext
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    image = models.ImageField(default='default.jpg', upload_to='profile_pics')
+    image = models.ImageField(default='default.jpg', upload_to=get_save_path)
 
     def __str__(self) -> str:
         return f'{self.user.username} Profile'
