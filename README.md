@@ -1,5 +1,5 @@
 # Introduction
-This is a blog website written using Django, it's based on an <a href="https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p">online tutorial</a> . Link to the website: http://www.blog.krzyzan.xyz, be sure to connect using http, some browsers like to force https. The server is running on Apache on a virtual linux server, and it was configured entirerly throught a SSH connection. And don't worry, on the real server settings have been changed to be secure.
+This is a blog website written using Django, it's based on an <a href="https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p">online tutorial</a> . Link to the website: http://www.blog.krzyzan.xyz, be sure to connect using http, some browsers like to force https. The server is running on Apache on a virtual linux server, and it was configured entirerly through a SSH connection. And don't worry, on the real server settings have been changed to be secure.
 ![image](https://github.com/Krzyzan42/blog_tutorial/assets/100627976/87b90417-0f35-44eb-857c-5946f05ea377)
 
 # Why it looks so bad
